@@ -30,10 +30,10 @@ const test6 = `(()(())((()))()))`; //fail
 const test7 = `)(())((()))())(`; //fail
 const test8 = `())`; //fail
 
-console.log(checkLispBrackets(test1) + " pass");
-console.log(checkLispBrackets(test2) + " pass");
-console.log(checkLispBrackets(test3) + " pass");
-console.log(checkLispBrackets(test4) + " pass");
-console.log(checkLispBrackets(test5) + " fail");
-console.log(checkLispBrackets(test8) + " fail");
-console.log(checkLispBrackets(test7) + " fail");
+console.log(checkLispParentheses(test1) + " pass");
+console.log(checkLispParentheses(test2) + " pass");
+console.log(checkLispParentheses(test3) + " pass");
+console.log(checkLispParentheses(test4) + " pass");
+console.log(checkLispParentheses(test5) + " fail");
+console.log(checkLispParentheses(test8) + " fail");
+console.log(checkLispParentheses(test7) + " fail");
