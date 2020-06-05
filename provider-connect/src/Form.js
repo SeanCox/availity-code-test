@@ -19,9 +19,9 @@ class Form extends React.Component {
   }
   render() {
     return (
-      <div>
-        <h1>Provider Input</h1>
-        <form>
+      <div className="registration-form">
+        <h1>Provider Registration</h1>
+        <div className="form">
           <label>First Name</label>
           <input
             type="text"
@@ -64,8 +64,8 @@ class Form extends React.Component {
             onChange={(e) => this.handleChange(e, "email")}
           ></input>
           <br></br>
-          <input type="submit"></input>
-        </form>
+          <button>submit</button>
+        </div>
       </div>
     );
   }
