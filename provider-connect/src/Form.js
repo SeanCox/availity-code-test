@@ -11,11 +11,16 @@ class Form extends React.Component {
       businessAddress: "",
       telephoneNumber: "",
       email: "",
+      submitted: false,
     };
     this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
   handleChange(e, prop) {
     this.setState({ [prop]: e.target.value });
+  }
+  handleSubmit() {
+    this.setState({ submitted: true });
   }
   render() {
     return (
@@ -64,8 +69,9 @@ class Form extends React.Component {
             onChange={(e) => this.handleChange(e, "email")}
           ></input>
           <br></br>
-          <button>submit</button>
+          <button onClick={this.handleSubmit}>submit</button>
         </div>
+        {this.state.submitted ? "Thanks for submitting!" : ""}
       </div>
     );
   }
