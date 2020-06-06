@@ -1,6 +1,6 @@
 1. Tell me about your proudest professional achievement. It can be a personal or school project.
 
--
+- Running a Kickstarter from building out the campaign to shipping the final product. It took my team 30 days to get on the platform and we had everything shipped within 60 days of the product being completed.
 
 2. Tell me a about a book, blog, article or GitHub repo you read or liked recently, and why you like it and why you should recommend I do the same.
 
